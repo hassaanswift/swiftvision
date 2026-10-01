@@ -5,4 +5,11 @@ build/
 dist/
 .venv/
 venv/
+env/
 .pypirc
+.twine
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+desktop.ini
