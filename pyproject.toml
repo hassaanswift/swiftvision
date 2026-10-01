@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swiftvision"
+version = "0.1.1"
+description = "SwiftVision AI — Image Annotation Studio"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "SwiftVision AI", email = "hassaan.swiftvision@gmail.com"},
+]
+keywords = [
+    "annotation",
+    "image",
+    "yolo",
+    "bounding-box",
+    "tool",
+    "labeling",
+    "computer-vision",
+    "dataset",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+    "Environment :: Win32 (MS Windows)",
+    "Environment :: X11 Applications",
+]
+
+dependencies = [
+    "Pillow>=9.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/swiftvision"
+Repository = "https://github.com/yourusername/swiftvision"
+"Bug Tracker" = "https://github.com/yourusername/swiftvision/issues"
+
+[project.scripts]
+swiftvision = "swiftvision.__main__:main"
+
+[tool.setuptools]
+packages = ["swiftvision"]
+include-package-data = true
+zip-safe = false
+
+[tool.setuptools.package-data]
+swiftvision = [
+    "swiftvision_logo.png",
+    "swiftvision.ico",
+]
