@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "swiftvision"
-version = "0.1.2"
+version = "0.1.3"
 description = "SwiftVision AI — Image Annotation Studio"
 readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
 authors = [
-    {name = "SwiftVision AI", email = "hassaan.swiftvision@gmail.com"},
+    {name = "Hassaan", email = "hassaan.swiftvision@gmail.com"},
 ]
 keywords = [
     "annotation",
@@ -43,9 +43,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/swiftvision"
-Repository = "https://github.com/yourusername/swiftvision"
-"Bug Tracker" = "https://github.com/yourusername/swiftvision/issues"
+Homepage = "https://github.com/hassaanswift/swiftvision"
+Repository = "https://github.com/hassaanswift/swiftvision"
+"Bug Tracker" = "https://github.com/hassaanswift/swiftvision/issues"
 
 [project.scripts]
 swiftvision = "swiftvision.__main__:main"
